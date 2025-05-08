@@ -17,7 +17,7 @@ Kui toode on SKU-põhiselt piiratud, siis sellele tootele soodustust ei rakendu 
 ![Plugin UI](pix/pic1.png)
 
 
-# Plugina kood source kasutas.
+# Plugina kood "source" kasutas.
 
 # Note hetkel Ecoshi epoes kassas väga selgelt pole aru saada kas toode on soodushinnaga kuna ei ole hind läbi kriipsutatud võiks ostukorvis kuvada siis oleks kliendil arusaadavam miks kupong osadele toodetele soodustust ei rakendu, hetkel visuaalselt veits keeruline aru saaada kas on tootel soodushind või mitte pilt ostukorvist toodetest millel mõlemal soodushind:  
 
