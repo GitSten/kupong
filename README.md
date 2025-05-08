@@ -1,4 +1,11 @@
-# Kupongi välistus plugin
+
+
+Praegune lahendus lükkab kogu ostukorvi ulatuses kupongi tagasi kui ostukorvis on vähemalt üks  toode mille reeglid on tehtud discount rulesiga
+Discount Rules arvutab ja kuvab soodushinna, aga ei salvesta seda standardsete väljade ( sales_price) kaudu, mida kupongi plugin ootab.
+Kupongi plugin aga eeldab, et kõik hinnamuutused tuleb tõendada sales_price väljal. Kui see on puudu, tõlgendab ta, et kupongi reegleid ei saa kombineerida juba kasutatud allahindlusega, ja blokeerib kupongi kogu ostukorvi ulatuses.
+
+# lahendus
+# Kupongi sku põhine välistus plugin
 
 Discount rulesis tuleb panna settingutes
 "Let both coupons and discount rules run together"
@@ -10,8 +17,9 @@ Mine menüüsse “Kupongi SKU välistus”.
 
 
 Kui soovid, et piirang kehtiks ainult sisseloginud kasutajatele, märgi linnuke kui mõlemale siis ei ole vaja märkida.
-Hetkel peaks hinnagarantii reegli puhul kupongi kasutamine olema keelatud ainult sisseloginud kasutajatele, sest neile kehtib 40% soodustus. Sisselogimata kasutaja peaks saama kupongi kasutada, kuna neile kuvatakse toote täishind.
-Kui toode on SKU-põhiselt piiratud, siis sellele tootele soodustust ei rakendu teistele toodetele, mis on täishinnaga, rakendub soodushind vastavalt kupongi seadistustele.
+Hinnagarantii reegli puhul peaks kupongi kasutamine olema keelatud ainult sisseloginud kasutajatele, kuna neile on juba antud 40% soodustus ning lisasoodustus ei tohiks rakenduda. Praegune lahendus keelab kupongi rakendamise kogu ostukorvile, kui ostukorvis on vähemalt üks reeglile vastav toode, mistõttu ei saa kupongi üldse kasutada.
+Sisselogimata kasutajad saavad kupongi kasutada, kuna neile kuvatakse toote täishind.
+Kui toode on SKU-põhiselt piiratud, ei rakendu soodustus sellele tootele; teistele täishinnaga toodetele rakendub soodustushind kupongi seadistuste kohaselt.
 
 
 ![Plugin UI](pix/pic1.png)
