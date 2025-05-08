@@ -11,7 +11,7 @@ See seade annab Discount Rules’ile käsu peatada kogu kupongi-loogika hetkel, 
 See tähendab see, et kui ostukorvis on vähemalt üks DR-iga soodustatud toode, käitub plugin nii, nagu setting ütleb ühesõnaga blokeerib <br>kõik kupongi-kontrollid ja tagastab vea (“invalid coupon” või “cannot apply coupon”).
 
 
-# lahendus
+# Lahendus
 # Kupongi sku põhine välistus plugin
 
 Discount rulesis tuleb panna settingutes
