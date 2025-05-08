@@ -25,7 +25,7 @@ Mine menüüsse “Kupongi SKU välistus”.
 
 
 Kui soovid, et piirang kehtiks ainult sisseloginud kasutajatele, märgi linnuke kui mõlemale siis ei ole vaja märkida.
-Hinnagarantii reegli puhul peaks kupongi kasutamine olema keelatud ainult sisseloginud kasutajatele, kuna neile on juba antud 40% soodustus ning lisasoodustus ei tohiks rakenduda. Praegune lahendus keelab kupongi rakendamise kogu ostukorvile, kui ostukorvis on vähemalt üks reeglile vastav toode, mistõttu ei saa kupongi üldse kasutada.
+Hinnagarantii reegli puhul peaks kupongi kasutamine olema keelatud ainult sisseloginud kasutajatele, kuna neile on juba antud 40% soodustus ning lisasoodustus ei tohiks rakenduda. 
 Sisselogimata kasutajad saavad kupongi kasutada, kuna neile kuvatakse toote täishind.
 Kui toode on SKU-põhiselt piiratud, ei rakendu soodustus sellele tootele teistele täishinnaga toodetele rakendub soodustushind kupongi seadistuste kohaselt.
 
