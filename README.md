@@ -1,6 +1,6 @@
 
 
-Praegune lahendus lükkab kogu ostukorvi ulatuses kupongi tagasi kui ostukorvis on vähemalt üks toode mille reeglid on tehtud discount rulesiga
+Praegune lahendus lükkab kogu ostukorvi ulatuses kupongi tagasi kui ostukorvis on vähemalt üks toode mille reeglid on tehtud discount rulesiga <br>
 Miks “Exclude sale items” ei aita?
 Discount Rules ei salvesta sale_price-i. Plugin arvutab soodushinna jooksvalt, ent ei täida WooCommerce’i standardset sale_price meta-välja.
 Toode ei ole faktiliselt “sale”. Kuna sale_price on tühi, siis product->is_on_sale() tagastab false ja WooCommerce peab toodet täishinnaliseks.
