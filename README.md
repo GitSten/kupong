@@ -4,7 +4,7 @@ Praegune lahendus lükkab kogu ostukorvi ulatuses kupongi tagasi kui ostukorvis 
 Miks “Exclude sale items” ei aita?<br>
 Discount Rules ei salvesta sale_price-i. Plugin arvutab soodushinna jooksvalt, ent ei täida WooCommerce’i standardset sale_price meta-välja.<br>
 Toode ei ole faktiliselt “sale”. Kuna sale_price on tühi, siis product->is_on_sale() tagastab false ja WooCommerce peab toodet täishinnaliseks.<br>
-Kupong rakendub ikkagi. “Exclude sale items” ei leia ühtegi tõelist “sale” toodet, mistõttu –15 % kupong lisandub ka –40 % või mis iganes Discount Rules reeglitele juhul kui oleks seadetes pandud "let both coupons and discount rules run together".<br>
+Kupong rakendub ikkagi. “Exclude sale items” ei leia ühtegi tõelist “sale” toodet, mistõttu –15 % kupong lisandub ka –40 % või mis iganes Discount Rules reegel on tehtud juhul kui oleks seadetes pandud "let both coupons and discount rules run together".<br>
 Hetkel on seadetes aktiveeritud “Disable coupons” (Discount Rules will work)
 on tahtlikult valitud, et ei rakenduks topelt soodustused.<br>
 See seade annab Discount Rules’ile käsu peatada kogu kupongi-loogika hetkel, kui Discount Rules reeglid kehtivad.<br>
