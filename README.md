@@ -35,7 +35,7 @@ Kui toode on SKU-põhiselt piiratud, ei rakendu soodustus sellele tootele teiste
 Ma enda testkeskonnas testisin kõik toimib niin nagu peab.
 # Plugina kood "source" kasutas.
 
-# // Note hetkel Ecoshi e-poes kassas väga selgelt pole aru saada kas toode on soodushinnaga kuna ei ole hind läbi kriipsutatud võiks ostukorvis kuvada siis oleks kliendil arusaadavam miks kupongi soodustus osadele toodetele  ei rakendu, hetkel visuaalselt veits keeruline aru saaada kas on tootel soodushind või mitte. Pilt ostukorvist toodetest millel mõlemal soodushind:  
+# // Note hetkel Ecoshi e-poes kassas väga selgelt pole aru saada kas toode on soodushinnaga kuna ei ole hind läbi kriipsutatud võiks ostukorvis kuvada siis oleks kliendil arusaadavam miks kupongi soodustus osadele toodetele  ei rakenda, hetkel visuaalselt veits keeruline aru saaada kas on tootel soodushind või mitte. Pilt ostukorvist toodetest millel mõlemal soodushind:  
 
 ![Plugin UI](pix/ecosh.png)
 
