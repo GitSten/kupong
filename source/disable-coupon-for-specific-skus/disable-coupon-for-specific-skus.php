@@ -1,10 +1,10 @@
 <?php
 /**
 * Plugin Name: WooCommerce - Disable Coupon for Specific SKUs
-* Description: Takistab kupongi kasutamist teatud SKU-ga toodetel, valikuliselt ainult sisseloginud kasutajatele.
+* Description: Takistab kupongi kasutamist määratud SKU-ga toodetele, võimalik määrata kas kehtib logged_in kasutajale või mõlemale.
 * Version: 1.1
-* Author: Sinu Nimi
-* License: GPL2
+* Author: Sten
+* 
 */
 
 if (!defined('ABSPATH')) {
