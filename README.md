@@ -10,3 +10,4 @@ Kui soovid, et piirang kehtiks ainult sisseloginud kasutajatele, märgi linnuke.
 
 Salvesta.
 
+![Plugin UI](pix/pic1.png)
